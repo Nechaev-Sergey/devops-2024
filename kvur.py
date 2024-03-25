@@ -14,3 +14,6 @@ while bad_data == True:
         print("На ноль делить нельзя!")
     except:
         print("какая-то ошибка")
+
+D = b*b - (4*a*c)
+print(f'Дискриминант равен: {D}.')
