@@ -1,5 +1,5 @@
-#import math
-from math import sqrt as kvkoren
+import math
+
 print ("Решаем квадратное уравнение")
 print("Для решения уравнения введите следующие значения как число")
 bad_data = True
@@ -21,8 +21,7 @@ D = b*b - (4*a*c)
 print(f'Дискриминант равен: {D}.')
 
 if D > 0:
-#    d = math.sqrt(D)
-    d = kvkoren(D)
+    d = math.sqrt(D)
     X1 = ((-b) + d)/(2*a)
     X2 = ((-b) - d)/(2*a)
     print(f"Первый корень равен {X1}, второй {X2}")
