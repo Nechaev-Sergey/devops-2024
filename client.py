@@ -7,4 +7,4 @@ while True:
     #print(result.text)
     with open('/srv/log.txt','a') as logfile:
         logfile.write(result.text)
-        logfile.write('n\')
+        logfile.write('n/')
